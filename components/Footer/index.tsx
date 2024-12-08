@@ -2,7 +2,7 @@ import React from "react";
 import { ScrollUp } from "../../utils/icons";
 
 const Footer = () => (
-  <div className="flex items-center text-blueGray-500 dark:text-gray-600 text-xs sm:text-base p-4 sm:p-6 bg-gray-50 dark:bg-dark-80">
+  <div className="flex items-center text-blueGray-500 dark:text-gray-600 text-xs sm:text-base p-4 sm:p-6 bg-brown-50 dark:bg-dark-80">
     <div className="w-9/12">
       <p>© 2024 Raza Khawaja</p>
       <p className="text-xs">Last Updated: November 2024</p>{" "}
