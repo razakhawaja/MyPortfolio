@@ -8,7 +8,7 @@ I'm currently a UX Designer at <a href="https://www.smithweb.com" style="text-de
 Outside of work, you will often find me either immersed in a single-player video game, discussing sports a little too passionately, or trying to paint (I use soft pastels!). If you're interested in talking more about my work, research interests, or simply want to rant about how bad Manchester United are right now, send me an email over at raza.khawaja@hotmail.com.
 
 </div>
-<img loading="lazy" class="w-3/4 sm:h-auto sm:w-auto sm:max-w-md sm:max-h-md" src="/info/aboutme.png" />
+<img loading="lazy" class="w-2/4 sm:h-auto sm:w-auto sm:max-w-md sm:max-h-md" src="/info/aboutme.png" />
 </div>
 ...
 
