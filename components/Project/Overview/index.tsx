@@ -8,7 +8,7 @@ const Detail = ({
   heading: string;
   description: string | Array<any>;
 }) => {
-  const detailsClasses = "text-lg text-blueGray-500 dark:text-gray-600";
+  const detailsClasses = "text-lg text-warmGray-900 dark:text-gray-600";
   return (
     <div className="mb-4">
       <h2 className="text-heading text-xl font-semibold">{heading}</h2>

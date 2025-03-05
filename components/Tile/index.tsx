@@ -7,7 +7,7 @@ const Tags = ({ tags, color }: { tags: Array<string>; color: string }) => (
     {tags?.map((tag, index) => (
       <div
         key={tag}
-        className="flex text-xs font-mono text-blueGray-500 dark:text-gray-600"
+        className="flex text-xs font-mono text-warmGray-900 dark:text-gray-600"
       >
         <span>{tag}</span>
         {index !== tags.length - 1 && (
@@ -44,7 +44,7 @@ const Tile = ({ work, version = 1 }: { work: Project; version?: number }) => {
         >
           <div className="mb-auto">
             <h4 className="text-xl mb-2">{work.title}</h4>
-            <p className="text-blueGray-500 dark:text-gray-600 text-sm">
+            <p className="text-warmGray-900 dark:text-gray-600 text-sm">
               {work.overview.description}
             </p>
           </div>
