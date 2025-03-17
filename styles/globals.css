@@ -228,8 +228,8 @@
     @apply text-4xl;
   }
 
-  .sub-heading {
-    @apply text-xl text-warmGray-900 dark:text-warmGray-900;
+  .md h2 {
+    @apply text-xl;
   }
 
   .md a {
