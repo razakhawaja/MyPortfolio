@@ -43,7 +43,7 @@ const Jumbotron = ({ intro }: { intro: Intro }) => {
             {intro.greeting}
           </h1>
           <h2 className="text-6xl sm:text-7xl font-bold mb-4">{intro.name}.</h2>
-          <p className="max-w-lg leading-normal text-xl text-blueGray-500 dark:text-gray-600">
+          <p className="max-w-lg leading-normal text-xl text-warmGray-900 dark:text-gray-600">
             {intro.intro}
           </p>
           <div className="pt-8 flex">

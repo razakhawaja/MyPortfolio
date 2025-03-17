@@ -26,7 +26,7 @@ const ExperienceSection = ({ items }: { items: Experience[] }) => (
               <h4 className="font-bold text-base">
                 {position.title} / {position.duration}
               </h4>
-              <span className="text-blueGray-500 dark:text-gray-600 whitespace-pre-line">
+              <span className="text-warmGray-900 dark:text-gray-600 whitespace-pre-line">
                 {position.body}
               </span>
             </div>
