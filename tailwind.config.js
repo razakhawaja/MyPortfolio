@@ -2,7 +2,7 @@
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-  purge: [
+  content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./containers/**/*.{js,ts,jsx,tsx}",
@@ -16,7 +16,7 @@ module.exports = {
       colors: {
         transparent: "transparent",
         // current: "currentColor",
-        blueGray: colors.blueGray,
+        blueGray: colors.slate,
         yellow: "#ca8a04",
         // primary: {
         //   light: "#f7f7f7",
