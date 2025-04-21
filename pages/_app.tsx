@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Navbar />
-      <div className="w-full min-h-vh flex bg-brown-50 dark:bg-dark-90 justify-center">
+      <div className="w-full min-h-vh flex bg-brown-50  justify-center">
         <div className="max-w-5xl w-full p-6 sm:p-12">
           <Component {...pageProps} />
         </div>

@@ -8,10 +8,12 @@ const Detail = ({
   heading: string;
   description: string | Array<any>;
 }) => {
-  const detailsClasses = "text-lg text-warmGray-900 dark:text-gray-600";
+  const detailsClasses = "text-lg text-primary";
   return (
     <div className="mb-4">
-      <h2 className="text-heading text-xl font-semibold">{heading}</h2>
+      <h2 className="text-heading text-xl text-primary font-semibold">
+        {heading}
+      </h2>
       {typeof description === "string" ? (
         <span className={detailsClasses}>{description}</span>
       ) : (
@@ -33,7 +35,7 @@ const Overview = ({ project }: { project: Project }) => {
   return (
     <div>
       <h1 style={{ color: project.textColor }}> {project.title} </h1>
-      <div className="my-8 py-8 border-b-2 border-gray-200 dark:border-gray-A100 sm:flex">
+      <div className="my-8 py-8 border-b-2 border-gray-200  sm:flex">
         <div
           className={`${
             preview ? "w-full sm:w-1/2 flex flex-col justify-center" : "w-full"
