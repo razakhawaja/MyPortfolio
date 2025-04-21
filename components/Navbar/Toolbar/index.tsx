@@ -14,7 +14,7 @@ const Toolbar = (props: ToggleProps) => {
   const router = useRouter();
 
   return (
-    <div className="bg-primary-lightP3 dark:bg-dark-90 p-4 h-20 relative z-40 flex items-center justify-center">
+    <div className="bg-primary-lightP3  p-4 h-20 relative z-40 flex items-center justify-center">
       <div className="flex items-center mt-3 sm:mt-0 max-w-screen-xl w-full">
         <div className="sm:hidden pr-4">
           <DrawerToggleButton click={props.drawerClickHandler} />
@@ -35,7 +35,7 @@ const Toolbar = (props: ToggleProps) => {
                   <div
                     className={`p-2 m-4 cursor-pointer ${
                       router.pathname === navRoute.path
-                        ? "text-primary"
+                        ? "text-primary underline underline-offset-8"
                         : "hover:text-primary-hover"
                     }`}
                   >

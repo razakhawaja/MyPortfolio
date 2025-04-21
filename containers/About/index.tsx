@@ -7,7 +7,7 @@ const About = ({ about }: { about: string }) => {
   return (
     <div id="about" className="w-full flex flex-col justify-center ">
       <SectionHeading text={"About Me"} index={1} />
-      <div className=" text-primary dark:text-gray-600 about-container">
+      <div className=" text-primary  about-container">
         <div className="flex flex-col-reverse sm:flex-row justify-center items-center w-full">
           <div className="w-50 pr-2 max-w-lg leading-relaxed text-xl  text-primary">
             I'm currently a UX Designer at{" "}

@@ -63,7 +63,7 @@ const Jumbotron = ({ intro }: { intro: Intro }) => {
         <img
           alt="jumbotron image"
           src={jumbotronImg}
-          className="h-80 m-8 rounded-full w-80 border-4 border-primary dark:border-primary-light self-center flex"
+          className="h-80 m-8 rounded-full w-80 border-4 border-primary  self-center flex"
         />
       </div>
     </>

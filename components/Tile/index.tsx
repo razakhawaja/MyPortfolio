@@ -5,10 +5,7 @@ import Link from "next/link";
 const Tags = ({ tags, color }: { tags: Array<string>; color: string }) => (
   <div className="flex flex-wrap">
     {tags?.map((tag, index) => (
-      <div
-        key={tag}
-        className="flex text-xs font-mono  text-primary dark:text-gray-600"
-      >
+      <div key={tag} className="flex text-xs font-mono  text-primary ">
         <span>{tag}</span>
         {index !== tags.length - 1 && (
           <div
@@ -29,7 +26,7 @@ const Tile = ({ work, version = 1 }: { work: Project; version?: number }) => {
   ) : (
     <Link href={`/project/${work.url}`}>
       <div
-        className="w-96 h-80 rounded shadow-xl overflow-hidden flex flex-col bg-white dark:bg-dark-80 transition duration-500 transform hover:-translate-y-2"
+        className="w-96 h-80 rounded shadow-xl overflow-hidden flex flex-col bg-white  transition duration-500 transform hover:-translate-y-2"
         style={{ cursor: "pointer" }}
       >
         <img
@@ -44,7 +41,7 @@ const Tile = ({ work, version = 1 }: { work: Project; version?: number }) => {
         >
           <div className="mb-auto">
             <h4 className="text-xl mb-2">{work.title}</h4>
-            <p className=" text-primary dark:text-gray-600 text-sm">
+            <p className=" text-primary  text-sm">
               {work.overview.description}
             </p>
           </div>

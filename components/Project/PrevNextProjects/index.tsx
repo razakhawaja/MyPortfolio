@@ -37,7 +37,7 @@ const PrevNextProjects = ({
 
   return (
     <>
-      <div className="border border-b border-solid border-gray-200 dark:border-dark-60 my-8" />
+      <div className="border border-b border-solid border-gray-200  my-8" />
       <div className="grid grid-rows-2 md:grid-cols-3 gap-4 md:gap-12">
         <div
           className="place-self-center md:place-self-start inline-flex cursor-pointer transform hover:-translate-x-4 hover:text-primary-hover transition duration-500"
