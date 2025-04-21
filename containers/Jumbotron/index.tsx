@@ -11,7 +11,7 @@ const Jumbotron = ({ intro }: { intro: Intro }) => {
       name: "LinkedIn",
       href: intro.socials.linkedin,
       svg: (
-        <LinkedIn className="text-xl hover:text-primary dark:hover:text-primary-light transition-colors duration-200" />
+        <LinkedIn className="text-xl hover:text-primary-hover transition-colors duration-200" />
       ),
     },
     {
@@ -19,7 +19,7 @@ const Jumbotron = ({ intro }: { intro: Intro }) => {
       href: intro.socials.email,
       svg: (
         <a href="mailto:raza.khawaja@hotmail.com">
-          <Mail className="text-xl hover:text-primary dark:hover:text-primary-light transition-colors duration-200" />
+          <Mail className="text-xl hover:text-primary-hover  transition-colors duraion-200" />
         </a>
       ),
     },
@@ -27,7 +27,7 @@ const Jumbotron = ({ intro }: { intro: Intro }) => {
       name: "Github",
       href: intro.socials.github,
       svg: (
-        <Github className="text-xl hover:text-primary dark:hover:text-primary-light transition-colors duration-200" />
+        <Github className="text-xl hover:text-primary-hover transition-colors duration-200" />
       ),
     },
   ];
@@ -39,11 +39,13 @@ const Jumbotron = ({ intro }: { intro: Intro }) => {
         style={{ lineHeight: 1.1 }}
       >
         <div className="flex flex-col justify-center">
-          <h1 className="text-primary dark:text-primary-light dark:hover:text-primary-lightP1 tracking-wider font-mono leading-loose text-base font-normal">
+          <h1 className="text-primary tracking-wider font-mono leading-loose text-base font-normal">
             {intro.greeting}
           </h1>
-          <h2 className="text-6xl sm:text-7xl font-bold mb-4">{intro.name}.</h2>
-          <p className="max-w-lg leading-normal text-xl text-warmGray-900 dark:text-gray-600">
+          <h2 className="text-6xl text-primary sm:text-7xl font-bold mb-4">
+            {intro.name}.
+          </h2>
+          <p className="max-w-lg leading-normal text-xl text-primary">
             {intro.intro}
           </p>
           <div className="pt-8 flex">

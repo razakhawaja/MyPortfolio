@@ -25,7 +25,7 @@ const Work = ({ works }: { works: Array<Project> }) => {
         changeTab={(index: number) => changeTab(index)}
       />
       <div className="w-full flex justify-center mt-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl text-primary">
           {selectedWorks
             .filter((work) => !work.hide)
             .map((work, index) => (

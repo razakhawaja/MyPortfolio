@@ -10,7 +10,7 @@ const AwardsSection = ({ items }: { items: string[] }) =>
       <div className="flex flex-col w-full md:w-8/12 justify-center">
         <ul>
           {items.map((award) => (
-            <li className="text-warmGray-900 dark:text-gray-600" key={award}>
+            <li className=" text-primary dark:text-gray-600" key={award}>
               {award}
             </li>
           ))}

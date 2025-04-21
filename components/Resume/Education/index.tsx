@@ -23,11 +23,11 @@ const EducationSection = ({ items }: { items: Education[] }) => (
           <h4 className="font-bold text-base">
             {education.title} / {education.duration}
           </h4>
-          <span className="text-warmGray-900 dark:text-gray-600">
+          <span className=" text-primary dark:text-gray-600">
             {education.body1}
           </span>
           {education.body2 && (
-            <p className="text-warmGray-900 dark:text-gray-600">
+            <p className=" text-primary dark:text-gray-600">
               {education.body2}
             </p>
           )}

@@ -13,22 +13,22 @@
   }
 
   h1 {
-    @apply font-semibold leading-tight text-5xl text-heading;
+    @apply text-primary font-semibold leading-tight text-5xl text-heading;
   }
   h2 {
-    @apply font-semibold leading-normal tracking-wide text-4xl text-heading;
+    @apply text-primary font-semibold leading-normal tracking-wide text-4xl text-heading;
   }
   h3 {
-    @apply font-semibold leading-normal tracking-wide text-3xl text-heading;
+    @apply text-primary font-semibold leading-normal tracking-wide text-3xl text-heading;
   }
   h4 {
-    @apply font-semibold leading-normal tracking-wide text-2xl text-heading;
+    @apply text-primary font-semibold leading-normal tracking-wide text-2xl text-heading;
   }
   h5 {
-    @apply font-bold leading-normal text-xl tracking-wide text-heading;
+    @apply text-primary font-bold leading-normal text-xl tracking-wide text-heading;
   }
   h6 {
-    @apply font-bold leading-normal text-base tracking-wide text-heading;
+    @apply text-primary font-bold leading-normal text-base tracking-wide text-heading;
   }
 
   button {
@@ -64,7 +64,7 @@
   }
 
   button.contained-primary:hover:enabled {
-    @apply bg-primary-600 border-primary-600;
+    @apply bg-primary border-primary-hover;
   }
 
   button.contained-primary:disabled {
@@ -221,19 +221,19 @@
   .md h5,
   .md h6,
   .md p {
-    @apply py-4;
+    @apply py-4 text-primary;
   }
 
   .md h3 {
-    @apply text-4xl;
+    @apply text-4xl text-primary-hover;
   }
 
   .md h2 {
-    @apply text-xl;
+    @apply text-xl text-primary-hover;
   }
 
   .md a {
-    @apply text-primary dark:text-primary-200 hover:text-primary-700 hover:underline;
+    @apply text-primary hover:text-primary-hover hover:underline;
   }
 
   .md ul {
@@ -245,12 +245,12 @@
   }
 
   .md li {
-    @apply text-xl leading-relaxed;
+    @apply text-xl leading-relaxed text-primary;
   }
 
   .md blockquote {
     @apply bg-brown-50 dark:bg-dark-80;
-    border-left: 5px solid #b078ff;
+    border-left: 5px solid #44403c;
     margin: 1.5em 0.5em;
     padding: 1px 20px 16px;
     overflow-x: scroll;
