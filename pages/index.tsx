@@ -14,31 +14,31 @@ export const getStaticProps = async (context) => {
   }));
 
   const intro = await fs.readFile(`${infoPath}/intro.json`, "utf-8");
-  const introduction = JSON.parse(intro)
+  const introduction = JSON.parse(intro);
 
   return {
     props: {
       works,
-      introduction
+      introduction,
     },
   };
 };
 
-const Home = ({ works, introduction }: InferGetStaticPropsType<typeof getStaticProps>) => {
+const Home = ({
+  works,
+  introduction,
+}: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <>
       <Head>
         <title>{introduction.name}</title>
-        <meta
-          name="description"
-          content={introduction.meta_description}
-        />
+        <meta name="description" content={introduction.meta_description} />
         <meta property="og:title" content={introduction.name} />
         <meta
           property="og:description"
           content={introduction.meta_description}
         />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.svg" />
         <link
           href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
           rel="stylesheet"
