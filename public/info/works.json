@@ -1,4 +1,19 @@
 {
+  "smith-design-system": {
+    "title": "Smith Design System",
+    "type": ["Featured", "UX"],
+    "tags": ["Design Systems"],
+    "tileImagePath": "/info/works/smith-design-system/smith-design-system-cover.svg",
+    "maintainAspectRatio": true,
+    "textColor": "#000",
+    "overview": {
+      "description": "Designing, documenting, and implementing a design system.",
+      "projectType": "Industry",
+      "roles": ["UX Designer"],
+      "timeline": "6 months+",
+      "previewImagePath": "/info/works/coming-soon.svg"
+    }
+  },
   "doordash-capstone": {
     "title": "Doordash Friends",
     "type": ["UX", "Featured"],
@@ -25,13 +40,13 @@
       "description": "Designing and implementing responsiveness for the OneSignal dashboard and website.",
       "projectType": "Industry Project for OneSignal Inc.",
       "roles": ["Design Engineer - Intern"],
-      "timeline": "May 2022 – August 2022",
+      "timeline": "3 months",
       "previewImagePath": "/info/works/one-signal/OS-responsive-design.png"
     }
   },
   "vr-fps": {
-    "title": "VR FPS Weapon Design",
-    "type": ["UX", "Featured"],
+    "title": "Improving Weapon Immersion in VR Gaming",
+    "type": ["UX"],
     "tags": ["Virtual Reality", "Prototyping", "Research", "User Testing"],
     "tileImagePath": "/info/works/vr-fps/vr-cover.svg",
     "maintainAspectRatio": true,
@@ -40,7 +55,7 @@
       "description": "A study on enhancing weapon design for increased immersion in VR first-person shooters.",
       "projectType": "Course Work",
       "roles": ["UX Designer, VR Developer"],
-      "timeline": "October 2022 – December 2022",
+      "timeline": "3 months",
       "previewImagePath": "https://www.youtube.com/embed/TWEGHDrWupo"
     }
   },
@@ -55,29 +70,8 @@
       "description": "Implementing site-wide dark mode for Educative Inc.",
       "projectType": "Industry Project - Educative Inc.",
       "roles": ["Software Engineer", "Technical Design Lead", "Mentor"],
-      "timeline": "May 2021 – July 2021",
+      "timeline": "3 months",
       "previewImagePath": "/info/works/dark-mode/dark-mode-overview.svg"
-    }
-  },
-  "blind-wheels": {
-    "title": "Blind Wheels",
-    "type": ["UX"],
-    "tags": [
-      "HCI",
-      "UX",
-      "Accessible Design",
-      "Prototyping",
-      "Usability Testing"
-    ],
-    "tileImagePath": "/info/works/blind-wheels/blind-wheels-cover.svg",
-    "maintainAspectRatio": false,
-    "textColor": "#CF7000",
-    "overview": {
-      "description": "An arcade racing game for the visually impaired.",
-      "projectType": "Course Project",
-      "roles": ["UX Designer & Researcher"],
-      "timeline": "August 2019 – December 2019",
-      "previewImagePath": "https://www.youtube.com/embed/VU-rDK_IjIM"
     }
   },
   "freelance-life": {
@@ -91,23 +85,8 @@
       "description": "Making rating and review systems on freelance platforms more meaningful and holistic.",
       "projectType": "Course Work",
       "roles": ["UX Researcher & Designer"],
-      "timeline": "September 2021 – October 2021",
+      "timeline": "1 month",
       "previewImagePath": "/info/works/freelance-life/freelance-overview.svg"
-    }
-  },
-  "exercise-fakeout": {
-    "title": "Exercise Fakeout",
-    "type": ["UX"],
-    "tags": ["UX Research", "Wireframing"],
-    "tileImagePath": "/info/works/exercise-fakeout/exercise-fakeout-cover.svg",
-    "maintainAspectRatio": false,
-    "textColor": "#ff5257",
-    "overview": {
-      "description": "A UX study on altering the way people think about and use fitness trackers.",
-      "projectType": "Course Work",
-      "roles": ["UX Researcher"],
-      "timeline": "August 2021 – September 2021",
-      "previewImagePath": "/info/works/exercise-fakeout/fakeout-main.svg"
     }
   },
   "cloudflare-cache": {
@@ -121,7 +100,7 @@
       "description": "A custom solution for a 3 level cache using Cloudflare workers.",
       "projectType": "Industry Project - Educative, Inc.",
       "roles": ["Full-Stack Engineer, Mentor"],
-      "timeline": "April 2021 – June 2021",
+      "timeline": "4 months",
       "previewImagePath": "/info/works/cloudflare-cache/cf-overview.svg"
     }
   }
