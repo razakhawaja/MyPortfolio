@@ -3,7 +3,7 @@
 <h2 class="sub-heading"> FINAL DESIGN </h2>
 <div class="flex justify-center w-full">
     <div style="width: 100%;">
-        <img loading="lazy" class="w-full" src="/info/works/doordash-capstone/doordash-mockups.svg" />
+        <img loading="lazy" class="w-full" src="/info/works/doordash-capstone/doordash-mockups.png" />
     </div>
 </div>
 
