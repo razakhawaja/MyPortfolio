@@ -1,5 +1,14 @@
 > This is my master's capstone at the graduate UX program at Purdue University. It is not affiliated with DoorDash and was not done under employment from DoorDash.
 
+<h2 class="sub-heading"> FINAL DESIGN </h2>
+<div class="flex justify-center w-full">
+    <div style="width: 100%;">
+        <img loading="lazy" class="w-full" src="/info/works/doordash-capstone/doordash-mockups.svg" />
+    </div>
+</div>
+
+Let's dive into how I got here; there is an interactive Figma prototype at the end for you to play around with!
+
 <h2 class="sub-heading"> INTRODUCTION </h2>
 <h3 style="color:#FF2F0A;"> Same old meal. </h3>
 
@@ -45,7 +54,7 @@ The first pain point in a user's journey was feeling overwhelmed by the large nu
 
 <div class="flex justify-center w-full">
     <div style="width: 40%;">
-        <img loading="lazy" class="w-full" src="/info/works/doordash-capstone/home.png" />
+        <img loading="lazy" style="width: 100%;" src="/info/works/doordash-capstone/home.png" />
     </div>
 </div>
 
@@ -56,8 +65,9 @@ specific meals that his friends have preferred in the past as well.
 This helps with the second pain point in the user journey - choosing a meal.
 
 <div class="flex justify-center w-full">
-    <div style="width: 40%;">
-        <img loading="lazy" class="w-full" src="/info/works/doordash-capstone/menu2.png" />
+    <div style="width: 60%; display: flex; gap: 10px;">
+        <img loading="lazy" style="width: 50%;" src="/info/works/doordash-capstone/menu1.png" />
+        <img loading="lazy" style="width: 50%;" src="/info/works/doordash-capstone/menu2.png" />
     </div>
 </div>
 
@@ -76,10 +86,11 @@ As a user's friend list on the app grows, there is a need for a separate space w
 To tackle this, I added a friends' feed feature that allows users to view their friends' recent orders, including contents and reviews. Users can also comment on meals for more information, potentially boosting their confidence in trying that meal out.
 
 <div class="flex justify-center w-full">
-    <div style="width: 40%;">
-        <img loading="lazy" class="w-full" src="/info/works/doordash-capstone/gif3.gif" />
+    <div style="width: 100%;">
+        <img loading="lazy" class="w-full" src="/info/works/doordash-capstone/friendsfeed.png" />
     </div>
 </div>
+<br>
 
 <h3 style="color:#FF2F0A;"> Bringing in-person discovery to the app </h3>
 
@@ -90,31 +101,45 @@ This presented an opportunity: **how might we incorporate the in-person discover
 Once a user orders and eats a new meal in-person, they may scan a QR code on their receipt, which opens the DoorDash app on their phone. The app recognizes the order and the restaurant, and prompts the user to add in some optional comments and share to their profile.
 
 <div class="flex justify-center w-full">
-    <div style="width: 40%;">
-        <img loading="lazy" class="w-full" src="/info/works/doordash-capstone/gif4.gif" />
+    <div style="width: 100%;">
+        <img loading="lazy" class="w-full" src="/info/works/doordash-capstone/shareorder.png" />
     </div>
 </div>
 
-But why would a user do this? There needs to be an incentive, a reward system. I propose DashPoints, which can be earned for ordering either in-person or through the app, and redeemed later for cash.
+But why would a user do this? There needs to be an incentive, a reward system. I propose **DashPoints**, which can be earned for ordering either in-person or through the app, and redeemed later for cash.
 
 The idea is for users to share their in-person discoveries to DoorDash, which would increase discoverability for their friends. Conversely, if a user's friends do the same, then the user will be helped. This feature is a two way street!
 
-<br/>
+<h3 style="color:#FF2F0A;"> Being a little experimental </h3>
+
+Let's go one step further into much more ambitious and experimental territory. The QR code scanning idea has one flaw - what if users do not tend to get printed receipts? Or discard/misplace them?
+
+To potentially bridge this pain point, I looked at existing rewards system in apps such as Target (US grocery store) and Panda Express (US fast food chain). These link the users account with their in-person checkout POS terminal when the user either enters their connected phone number, or scans a specific code on their app.
+
+Since this would require a partnership between Doordash and the physical store, **let's go with the assumption that such a partnership exists**. Then:
+
+As the user enters their number, or scans a code on the app, DoorDash would recognize the order and send the user a notification, prompting them to share the order to their profile.
 
 <div class="flex justify-center w-full">
-    <div style="width: 40%;">
-        <img loading="lazy" class="w-full" src="/info/works/doordash-capstone/notification.png" />
+    <div style="width: 100%;">
+        <img loading="lazy" class="w-full" src="/info/works/doordash-capstone/share-order-experimental.png" />
     </div>
 </div>
 
-However, if a user tends to not get a printed receipt, they may key-in their phone number on the card scanning machine to link their order with DoorDash. DoorDash would recognize the order and send the user a notification, prompting them to share the order to their profile.
+<br>
 
-This would entail some collaboration between the restaurant and DoorDash but will work similar to existing interactions such as rewards at Target.
-
+<h2 class="sub-heading"> PROTOTYPE </h2>
 Feel free to play around with the interactive prototypes of the three design concepts discussed above:
 
 <div class="iframe-container">
-<iframe class="responsive-iframe" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FGX1cHVrSy7BLwkXdyWSHYg%2FCapstone-(Copy)%3Fpage-id%3D0%253A1%26node-id%3D117-277%26viewport%3D1461%252C-390%252C0.17%26scaling%3Dscale-down%26starting-point-node-id%3D117%253A277%26show-proto-sidebar%3D1" allowfullscreen></iframe>
+    <iframe 
+        class="responsive-iframe" 
+        style="border: 1px solid rgba(0, 0, 0, 0.1);" 
+        width="100%" 
+        height="450" 
+        src="https://embed.figma.com/proto/GX1cHVrSy7BLwkXdyWSHYg/Doordash-Project---Purdue-Capstone?page-id=0%3A1&node-id=117-277&p=f&viewport=848%2C-526%2C0.24&scaling=scale-down&content-scaling=fixed&starting-point-node-id=117%3A277&show-proto-sidebar=1&embed-host=share" 
+        allowfullscreen>
+    </iframe>
 </div>
 
 <br/>
