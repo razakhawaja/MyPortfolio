@@ -1,21 +1,19 @@
 {
-  "download_url": "https://drive.google.com/file/d/12F-6t6CP650QB1NgIiQlSgEU5h7jburX/view?usp=sharing",
+  "download_url": "https://drive.google.com/file/d/1zJTBSqkcnsQz4Ox7THPmuuhFBcO4EA04/view?usp=sharing",
   "education": [
     {
       "institute": "Purdue University",
       "url": "https://polytechnic.purdue.edu/degrees/ms-computer-graphics-technology/ux-design",
       "title": "Master of Science - UX Design",
       "duration": "2021 - 2023",
-      "body1": "CGPA: 3.98/4.00",
-      "body2": "Key Coursework: Design Theory, Qualitative Research Methods, Cognition & HCI, User Experience Studio, Virtual Reality"
+      "body1": "CGPA: 3.98/4.00"
     },
     {
       "institute": "Lahore University of Management Sciences",
       "url": "https://lums.edu.pk/",
       "title": "Bachelor of Science - Computer Science",
       "duration": "2016 - 2020",
-      "body1": "CGPA: 3.74 / 4.00",
-      "body2": "Key Coursework: Software Engineering, Human-Computer Interaction, Network-Centric Computing, Deep Learning, Computer Vision"
+      "body1": "CGPA: 3.74 / 4.00"
     }
   ],
   "experience": [
@@ -25,9 +23,9 @@
       "location": "Houston, TX, USA",
       "positions": [
         {
-          "title": "UI/UX Designer",
+          "title": "Senior UX Designer",
           "duration": "June 2023 - Present",
-          "body": "At Smith, I spearheaded the creation of a comprehensive design system for 6+ internal applications, standardizing components and enhancing usability. \n\nMy day-to-day tasks involve going through the full design process for new features that drive efficiency and create seamless workflows for our sales, procurement and management teams, in addition to collaborating closely with developers to ensure smooth design-to-code handoffs."
+          "body": "• Designed a mobile app to replace warehouse barcode scanners with smartphone-based scanning. Integrated with internal systems, supported data/photo capture, and is now used in 3 global warehouses: USA, Amsterdam, Hong Kong, reducing receiving time and hardware costs.\n• Designed the UI for an AI-powered internal tool used by the counterfeit detection lab in the all global warehouses. The tool analyzes microchips using AI and provides automated assistance for faster, more accurate inspections.\n• Led the creation of a design system for eight internal applications, conducting UX audits, standardizing typography, and implementing Figma variables, increasing component adoption from ~30% to ~ 90%.\n• Designed and optimized Smith’s internal IT Asset Disposition (ITAD) tool in collaboration with Google, aligning workflows across global warehouses for verifying and wiping storage devices."
         }
       ]
     },
@@ -39,7 +37,7 @@
         {
           "title": "Lead UX Consultant",
           "duration": "August 2022 - May 2023",
-          "body": "I served as the lead UX consultant for Science Gateways Community Institute projects at the DVC Lab (www.dvclab.net), where I developed project plans, set timelines, and defined deliverables to guide development. \n\nI also conducted extensive UX research to support user-centered science gateway design and development for researchers from universities all around the world."
+          "body": "Led UX research, planning, and design for five NSF-funded Science Gateway initiatives under the SGCI(SGX3), managing stakeholder relationships and user-centered design execution."
         }
       ]
     },
@@ -51,7 +49,7 @@
         {
           "title": "Design Engineer Intern",
           "duration": "May 2022 - August 2022",
-          "body": "At OneSignal, I designed and implemented responsive layouts for the dashboard and website, ensuring a seamless user experience across devices. I also created reusable Figma components for the Journeys feature and updated desktop notification previews to align with the latest MacOS standards."
+          "body": "• Designed and implemented responsive layouts for the OneSignal dashboard and website, enhancing UX for 27% of mobile and tablet users.\n• Built reusable, extendable Figma components for the Journeys product."
         }
       ]
     },
@@ -63,7 +61,7 @@
         {
           "title": "Full-Stack Software Engineer",
           "duration": "June 2020 - July 2021",
-          "body": "At Educative, I led efforts to improve Google Lighthouse scores to 90+ on non-paywalled pages, enhancing SEO, performance, and UX. I implemented a custom caching solution with Cloudflare that reduced load times, achieving 75% cached requests by May 2021. \n\nAs part of the technical design team, I helped migrate our legacy design system to TailwindCSS, enabling dark mode—our most requested feature. Additionally, I mentored new hires, updating bootcamp documentation to streamline onboarding."
+          "body": "• Led SEO and UX initiatives, improving Google Lighthouse scores to 90%+ for public-facing pages by refactoring legacy CSS and optimizing code.\n• Developed a three-tier caching system using Cloudflare Workers, reducing page load times and serving 75% of requests from cache.\n• Spearheaded and mentored the implementation of site-wide dark mode, migrating the legacy design system to TailwindCSS."
         }
       ]
     }
